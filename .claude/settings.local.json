@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python -m pytest tests/test_learned_router.py tests/test_pipeline.py tests/test_rule_router.py -v)",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(ls:*)",
+      "Bash(C:/Users/Theo/Documents/agent-router/.venv/Scripts/python.exe -m pip install -e \"C:/Users/Theo/Documents/agent-router[learn,dev]\")",
+      "Bash(C:/Users/Theo/Documents/agent-router/.venv/Scripts/python.exe -m uv pip install -e \"C:/Users/Theo/Documents/agent-router[learn,dev]\")",
+      "Bash(uv pip:*)",
+      "Bash(.venv/Scripts/python.exe -m pytest tests/test_learned_router.py tests/test_pipeline.py tests/test_rule_router.py -v)",
+      "Bash(python -m pytest tests/test_bandit.py -v)",
+      "Bash(python -m pytest tests/ -v)",
+      "Bash(python scripts/seed_db.py)",
+      "Bash(python -c \"from src.dashboard.app import main; print\\('Import OK'\\)\")",
+      "Bash(python -c ':*)",
+      "Bash(.venv/Scripts/python -m ruff check src/ tests/ scripts/')",
+      "Bash(.venv/Scripts/python:*)"
+    ]
+  }
+}

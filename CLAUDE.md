@@ -1,5 +1,13 @@
 # CLAUDE.md — AgentRouter Project
 
+## CLAUDE CODE OUTPUT RULES
+- No summaries after writing files. The file speaks for itself.
+- No listing what you're "about to do." Just do it.
+- No recap of what you built at the end. Just say "Done. Tests pass." or "Done. 2 failures:" + the errors.
+- Batch reads: one grep beats reading 5 files sequentially.
+- Never re-read a file you already read this session.
+
+
 ## TOKEN-EFFICIENT OPERATIONAL PROTOCOL
 
 Every token costs money. Deliver maximum output quality while minimizing waste. Route tasks to the right model tier and effort level. No bloat. No filler. No over-engineering.

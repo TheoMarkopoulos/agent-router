@@ -74,7 +74,7 @@ graph TD
 ### Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/agent-router.git
+git clone https://github.com/<YOUR_USERNAME>/agent-router.git
 cd agent-router
 
 # Create env and install
