@@ -149,16 +149,64 @@ Streamlit app with three views:
 
 ---
 
-## 🛠 Built With
+## 🛠 Tech Stack
 
-| Component | Technology |
-|-----------|-----------|
-| Orchestration | [LangGraph](https://github.com/langchain-ai/langgraph) |
-| LLM Gateway | [LiteLLM](https://github.com/BerriAI/litellm) |
-| Run Logging | [DuckDB](https://duckdb.org) |
-| Dashboard | [Streamlit](https://streamlit.io) + [Plotly](https://plotly.com) |
-| Model Selection | Custom Arm Elimination bandit |
-| Deployment | [Modal](https://modal.com) (serverless GPU) |
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="48"><br>
+      <b>Python 3.12</b><br>
+      <sub>Core Language</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-🔗%20LangGraph-2D3748?style=for-the-badge&logoColor=white" height="48"><br>
+      <b>LangGraph</b><br>
+      <sub>Orchestration</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-🔀%20LiteLLM-FF6B35?style=for-the-badge&logoColor=white" height="48"><br>
+      <b>LiteLLM</b><br>
+      <sub>LLM Gateway</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" height="48"><br>
+      <b>DuckDB</b><br>
+      <sub>Run Logging</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" height="48"><br>
+      <b>Streamlit</b><br>
+      <sub>Dashboard</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" height="48"><br>
+      <b>Plotly</b><br>
+      <sub>Visualizations</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" height="48"><br>
+      <b>Pydantic</b><br>
+      <sub>Data Models</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" height="48"><br>
+      <b>scikit-learn</b><br>
+      <sub>Router Classifier</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-🤗%20SBERT-FFCA28?style=for-the-badge&logoColor=black" height="48"><br>
+      <b>Sentence Transformers</b><br>
+      <sub>Embeddings</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/-⚡%20Modal-00C896?style=for-the-badge&logoColor=white" height="48"><br>
+      <b>Modal</b><br>
+      <sub>Serverless Deploy</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
