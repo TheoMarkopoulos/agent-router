@@ -1,0 +1,26 @@
+routes:
+  direct_response:
+    description: "Simple factual queries, greetings, clarifications"
+    default_model: gpt-4o-mini
+    max_budget_usd: 0.001
+
+  single_agent:
+    description: "Standard tasks handled by one model"
+    default_model: claude-sonnet-4-20250514
+    fallback_model: gpt-4o
+    max_budget_usd: 0.05
+
+  multi_agent:
+    description: "Complex tasks requiring multi-step decomposition"
+    default_model: claude-sonnet-4-20250514
+    max_budget_usd: 0.20
+
+  escalation:
+    description: "High-stakes or failed tasks needing frontier model"
+    default_model: gpt-4o
+    max_budget_usd: 0.50
+
+  clarification:
+    description: "Ambiguous queries needing user input"
+    default_model: gpt-4o-mini
+    max_budget_usd: 0.001
